@@ -1,4 +1,4 @@
-![Image alt](https://github.com/{username}/{repository}/raw/{branch}/{path}/image.png)
+![chessCover](https://github.com/JuliaMiroshnichenko/React-chess/blob/master/cover.jpg)
 
 ## Шахматы / Chess 
 
