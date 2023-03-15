@@ -1,4 +1,4 @@
-## Шахматы / Chess ![](/assets/cover.jpg)
+## Шахматы / Chess ![alt text](../../assets/cover.jpg)
 
 ---
 
