@@ -1,4 +1,6 @@
-## Шахматы / Chess ![](./../assets/cover.jpg)
+![](../../assets/cover.jpg)
+
+## Шахматы / Chess 
 
 ---
 
