@@ -1,6 +1,6 @@
 ![chessCover](https://github.com/JuliaMiroshnichenko/React-chess/blob/master/cover.jpg)
 
-* [author: @ayunannas]
+[author: @ayunannas]
 
 ## Шахматы / Chess 
 
