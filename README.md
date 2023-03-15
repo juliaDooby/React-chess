@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+## Шахматы / Chess ![](/assets/cover.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### Стек / Stack: 
 
-In the project directory, you can run:
+* React
+* TypeScript
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Этапы разработки: 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Инициализация React приложения
+2. Создание ООПшных классов для шахмат. Инициализация клетки шахматной доски
+3. Расстановка фигуры
+4. Координаты доски. Х Y
+5. Логика игры. Подсвечивание доступных для хода клетки
+6. canMove. Движение фигур ( Ферзь, слон, ладья )
+7. Движение коня и пешки
+8. Перезапуск игры. Передача хода
+9. Список съеденных фигур. Таймер
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Что осталось реализовать [в дальнейшем] : 
 
-### `npm run build`
+10. По истечении времени добавить проверку по условию if ( timer < 0 ) { } в таймер, у какого игрока обнулился, 
+значит игрок проиграл, вывести на экран "Белые проиграли!" и перезапустить игру  
+12. Логика движения короля 
+13. Добавить условие для шаха и мата. Метод canMove - проверить, находится ли король под атакой,
+определить также как, на какие позиции движется каждая из фигур. 
+Смотрим ( target ), если на ( target ) идет атака от любой из фигур, то это шах, и надо подвинуть или защитить короля.
+Сделать метод ( isKingUnderAttack ) и добавить < условия > 
+14. Добавить условия на < мат >, < на победу > ( у каждой фигуры есть avvailablePoints , благодаря которым идет определение, куда может идти фигура,
+если Король под атакой ( тот же метод isKingUnderAttack )),
+если у короля нет свободных полей куда-либо пойти и его нечем защитить ( < высчитать > точки для соседних фигур ), 
+то игра закончена, ставится мат 
+15. История ходов ( записывать куда-то )
+16. Реализовать на < ход вперед >, на < ход назад > ( Undo ), ( Redo )
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Инструкция по запуску : 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. `npm install`
+2. `npm start`
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Пожалуйста, оставьте звездочку / star, если зашли в гости, мне будет приятно ) ★
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
