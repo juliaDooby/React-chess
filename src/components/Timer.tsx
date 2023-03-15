@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useRef, useState } from 'react';
+import { FC, useEffect, useRef, useState } from 'react';
 import { Player } from '../models/Player';
 import { Colors } from '../models/Colors';
 
@@ -7,9 +7,9 @@ interface TimerProps {
   restart: () => void;
 }
 
-const Timer: FC<timerProps> = ({ currentPlayer, restart }) => {
-  const [blackTime, setBlackTime] = useState[300];
-  const [whiteTime, setWhiteTime] = useState[300];
+const Timer: FC<TimerProps> = ({ currentPlayer, restart }) => {
+  const [blackTime, setBlackTime] = useState(300);
+  const [whiteTime, setWhiteTime] = useState(300);
   const timer = useRef<null | ReturnType<typeof setInterval>>(null);
 
   useEffect(() => {
@@ -39,12 +39,31 @@ const Timer: FC<timerProps> = ({ currentPlayer, restart }) => {
   };
 
   return (
-    <div>
+    <div
+      style={{
+        padding: '15px',
+        marginTop: '10px',
+        marginLeft: '45%',
+        color: '#57010c',
+      }}
+    >
       <div>
-        <button onClick={handleRestart}>Restart game</button>
+        <button
+          style={{
+            padding: '10px',
+            fontSize: '18px',
+            color: 'rgba(255, 255, 255, 0.89)',
+            background: '#57010c',
+            border: 'none',
+            borderRadius: '5px',
+          }}
+          onClick={handleRestart}
+        >
+          <span>Restart game</span>
+        </button>
       </div>
-      <h2>Черные - {blackTime}</h2>
-      <h2>Белые - {whiteTime}</h2>
+      <h2 style={{ fontSize: '24px', marginTop: '10px' }}>Черные - {blackTime}</h2>
+      <h2 style={{ fontSize: '24px', marginTop: '5px' }}>Белые - {whiteTime}</h2>
     </div>
   );
 };

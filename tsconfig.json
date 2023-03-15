@@ -1,10 +1,22 @@
 {
   "compilerOptions": {
+    // "target": "es5",
+    // "lib": [
+    //   "dom",
+    //   "dom.iterable",
+    //   "esnext",
+    //   ],
+       "baseUrl": "./",
+    // "jsx": "react",
+    "lib": ["es5", "es6", "dom"],
+    // "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+    "typeRoots": [
+      "custom_typings"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -18,9 +30,15 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "types": ["react/next", "react-dom/next"]
   },
   "include": [
-    "src"
-  ]
+    // "src"
+    // ["./src/**/*.tsx"],
+    "./src/",
+    "src./src/**/*.tsx ",
+  ],
+  "exclude": ["dist", "build", "node_modules"]
 }
+

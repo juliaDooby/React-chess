@@ -16,7 +16,7 @@ const BoardComponent: FC<BoardProps> = ({ board, setBoard, currentPlayer, swapPl
   const [selectedCell, setSelectedCell] = useState<Cell | null>(null);
 
   function click(cell: Cell) {
-    if (selectedCell && selectedCell !== cell && selectedCell.figure?.camMove(cell)) {
+    if (selectedCell && selectedCell !== cell && selectedCell.figure?.canMove(cell)) {
       selectedCell.moveFigure(cell);
       swapPlayer();
       setSelectedCell(null);
@@ -44,7 +44,17 @@ const BoardComponent: FC<BoardProps> = ({ board, setBoard, currentPlayer, swapPl
 
   return (
     <div>
-      <h3>Текущий игрок {currentPlayer?.color}</h3>
+      <h3
+        style={{
+          marginLeft: '42%',
+          fontSize: '24px',
+          marginBottom: '10px',
+          color: '#99465b',
+          fontWeight: 'bold',
+        }}
+      >
+        Текущий игрок {currentPlayer?.color}
+      </h3>
       <div className="board">
         {/* отрисовка двумерных строк */}
         {board.cells.map((row, index) => (

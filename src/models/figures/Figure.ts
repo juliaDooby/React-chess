@@ -1,4 +1,4 @@
-import logo from './assets/black-king.png';
+import logo from '../../assets/black-king.png';
 import { Colors } from '../Colors';
 import { Cell } from '../Cell';
 
@@ -6,7 +6,7 @@ export enum FigureNames {
   FIGURE = 'Фигура',
   KING = 'Король',
   KNIGHT = 'Конь',
-  PAWN = 'Лешка',
+  PAWN = 'Пешка',
   QUEEN = 'Ферзь',
   ROOK = 'Ладья',
   BISHOP = 'Слон',

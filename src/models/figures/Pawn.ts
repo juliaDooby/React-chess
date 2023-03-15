@@ -1,15 +1,15 @@
 import { Figure, FigureNames } from './Figure';
 import { Colors } from '../Colors';
 import { Cell } from '../Cell';
-import blackLogo from './assets/black-pawn.png';
-import whiteLogo from './assets/white-pawn.png';
+import blackLogo from '../../assets/black-pawn.png';
+import whiteLogo from '../../assets/white-pawn.png';
 
 export class Pawn extends Figure {
   isFirstStep: boolean = true;
 
   constructor(color: Colors, cell: Cell) {
     super(color, cell);
-    this.logo = color === colors.BLACK ? blackLogo : whiteLogo;
+    this.logo = color === Colors.BLACK ? blackLogo : whiteLogo;
     this.name = FigureNames.PAWN;
   }
 
