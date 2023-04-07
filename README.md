@@ -4,6 +4,8 @@
 
 ## Шахматы / Chess 
 
+  [Посмотрите сами](https://juliadooby.github.io/React-chess/)
+  
 ---
 
 ### Стек / Stack: 
