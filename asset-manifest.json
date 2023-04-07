@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-chess/static/css/main.312871fb.css",
+    "main.js": "/React-chess/static/js/main.e860350c.js",
+    "static/media/white-knight.png": "/React-chess/static/media/white-knight.2f60c42d14f1facf820a.png",
+    "static/media/black-knight.png": "/React-chess/static/media/black-knight.813139da8df417cb0b6a.png",
+    "static/media/white-bishop.png": "/React-chess/static/media/white-bishop.985aa3d57c4fe4eeb4ff.png",
+    "static/media/black-bishop.png": "/React-chess/static/media/black-bishop.2e84a1acb9869dbb266e.png",
+    "static/media/white-rook.png": "/React-chess/static/media/white-rook.6b2a8c10e16801c62e63.png",
+    "static/media/white-queen.png": "/React-chess/static/media/white-queen.ae61e8f3dd7960784591.png",
+    "static/media/black-rook.png": "/React-chess/static/media/black-rook.86b011e19b664bb51711.png",
+    "static/media/black-queen.png": "/React-chess/static/media/black-queen.237bce6a6bd3b7da8d83.png",
+    "static/media/white-pawn.png": "/React-chess/static/media/white-pawn.730e73c1dcc2c978ac8c.png",
+    "static/media/black-pawn.png": "/React-chess/static/media/black-pawn.88d8e22a136c97ec7808.png",
+    "index.html": "/React-chess/index.html",
+    "main.312871fb.css.map": "/React-chess/static/css/main.312871fb.css.map",
+    "main.e860350c.js.map": "/React-chess/static/js/main.e860350c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.312871fb.css",
+    "static/js/main.e860350c.js"
+  ]
+}
