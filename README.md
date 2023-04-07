@@ -44,7 +44,7 @@
 
 ### Инструкция по запуску : 
 
-1. `npm install`
+1. `npm i / install`
 2. `npm start`
 
 ---
