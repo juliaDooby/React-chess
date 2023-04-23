@@ -13,6 +13,7 @@
 
 * React
 * TypeScript
+* Redux
 
 ---
 
