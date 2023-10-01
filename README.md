@@ -37,30 +37,40 @@
 8. List of eaten figures. Timer
 
 ---
-
-### Что осталось реализовать [в дальнейшем] : 
-
-10. По истечении времени добавить проверку по условию if ( timer < 0 ) { } в таймер, у какого игрока обнулился, 
+### Modification to do (no need, _optional for me):
+<!-- ### Что осталось реализовать [в дальнейшем] : 
+9. По истечении времени добавить проверку по условию if ( timer < 0 ) { } в таймер, у какого игрока обнулился, 
 значит игрок проиграл, вывести на экран "Белые проиграли!" и перезапустить игру  
-12. Логика движения короля 
-13. Добавить условие для шаха и мата. Метод canMove - проверить, находится ли король под атакой,
+10. Логика движения короля 
+11. Добавить условие для шаха и мата. Метод canMove - проверить, находится ли король под атакой,
 определить также как, на какие позиции движется каждая из фигур. 
 Смотрим ( target ), если на ( target ) идет атака от любой из фигур, то это шах, и надо подвинуть или защитить короля.
 Сделать метод ( isKingUnderAttack ) и добавить < условия > 
-14. Добавить условия на < мат >, < на победу > ( у каждой фигуры есть availablePoints , благодаря которым идет определение, куда может идти фигура,
+12. Добавить условия на < мат >, < на победу > ( у каждой фигуры есть availablePoints , благодаря которым идет определение, куда может идти фигура,
 если Король под атакой ( тот же метод isKingUnderAttack )),
 если у короля нет свободных полей куда-либо пойти и его нечем защитить ( < высчитать > точки для соседних фигур ), 
 то игра закончена, ставится мат 
-15. История ходов ( записывать куда-то )
-16. Реализовать на < ход вперед >, на < ход назад > ( Undo ), ( Redo )
-
+13. История ходов ( записывать куда-то )
+14. Реализовать на < ход вперед >, на < ход назад > ( Undo ), ( Redo ) 
+ -->
+9. After the time has expired, add a condition check if ( timer < 0 ) { } to the timer, which player has reset,
+it means the player lost, display “White lost!” and restart the game
+10. Logic of the king's movement
+11. Add a condition for checkmate. canMove method - check if the king is under attack,
+determine also how, to what positions each of the figures moves.
+We look at (target), if there is an attack on (target) from any of the pieces, then this is check, and the king must be moved or defended.
+Make a method ( isKingUnderAttack ) and add <conditions>
+12. Add conditions for <mate>, <for victory> (each piece has availablePoints, thanks to which it is determined where the piece can go,
+if the King is under attack (the same method isKingUnderAttack)),
+if the king has no free squares to go anywhere and there is nothing to protect him with (<calculate> points for neighboring pieces),
+then the game is over, checkmate
+13. History of moves (write down somewhere)
+14. Implement on <move forward>, on <move backward> (Undo), (Redo)
 ---
 
-### Инструкция по запуску : 
+### Instructions for start : 
 
 1. `npm install`
 2. `npm start`
-
+   
 ---
-
-## Не забудьте поставить звездочку ! ! ! ★ 
