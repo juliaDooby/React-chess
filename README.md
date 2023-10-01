@@ -3,13 +3,12 @@
 
 [author: @ayunannas] -->
 
-## Шахматы / Chess 
+## React-chess-app
 
 <!--  [Посмотрите сами](https://juliadooby.github.io/React-chess/) -->
-  
 ---
 
-### Стек / Stack: 
+### Stack: 
 
 * React
 * TypeScript
@@ -17,17 +16,25 @@
 
 ---
 
-### Этапы разработки: 
+### Development stages: 
 
-1. Инициализация React приложения
-2. Создание ООПшных классов для шахмат. Инициализация клетки шахматной доски
-3. Расстановка фигуры
-4. Координаты доски. Х Y
-5. Логика игры. Подсвечивание доступных для хода клетки
-6. canMove. Движение фигур ( Ферзь, слон, ладья )
-7. Движение коня и пешки
-8. Перезапуск игры. Передача хода
-9. Список съеденных фигур. Таймер
+<!-- 1. Создание ООПшных классов для шахмат. Инициализация клетки шахматной доски
+2. Расстановка фигуры
+3. Координаты доски. Х Y
+4. Логика игры. Подсвечивание доступных для хода клетки
+5. canMove. Движение фигур ( Ферзь, слон, ладья )
+6. Движение коня и пешки
+7. Перезапуск игры. Передача хода
+8. Список съеденных фигур. Таймер -->
+
+1. Creation of OOP classes for chess. Initializing a chessboard square
+2. Figure placement
+3. Board coordinates. X Y
+4. Game logic. Highlighting moveable cells
+5. canMove. Movement of pieces (Queen, Bishop, Rook)
+6. Movement of knight and pawn
+7. Restart the game. Travel transfer
+8. List of eaten figures. Timer
 
 ---
 
