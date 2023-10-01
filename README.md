@@ -37,7 +37,7 @@
 8. List of eaten figures. Timer
 
 ---
-### Modification to do (no need, _optional for me):
+### Modification to do (no need, optional for me):
 <!-- ### Что осталось реализовать [в дальнейшем] : 
 9. По истечении времени добавить проверку по условию if ( timer < 0 ) { } в таймер, у какого игрока обнулился, 
 значит игрок проиграл, вывести на экран "Белые проиграли!" и перезапустить игру  
