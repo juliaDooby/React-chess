@@ -1,11 +1,11 @@
 
-![chessCover](https://github.com/JuliaMiroshnichenko/React-chess/blob/master/cover.jpg)
+<!-- ![chessCover](https://github.com/JuliaMiroshnichenko/React-chess/blob/master/cover.jpg) 
 
-[author: @ayunannas]
+[author: @ayunannas] -->
 
 ## Шахматы / Chess 
 
-  [Посмотрите сами](https://juliadooby.github.io/React-chess/)
+<!--  [Посмотрите сами](https://juliadooby.github.io/React-chess/) -->
   
 ---
 
