@@ -27,14 +27,14 @@
 7. Перезапуск игры. Передача хода
 8. Список съеденных фигур. Таймер -->
 
-1. Creation of OOP classes for chess. Initializing a chessboard square
-2. Figure placement
-3. Board coordinates. X Y
-4. Game logic. Highlighting moveable cells
-5. canMove. Movement of pieces (Queen, Bishop, Rook)
-6. Movement of knight and pawn
-7. Restart the game. Travel transfer
-8. List of eaten figures. Timer
+* Creation of OOP classes for chess. Initializing a chessboard square
+* Figure placement
+* Board coordinates. X Y
+* Game logic. Highlighting moveable cells
+* canMove. Movement of pieces (Queen, Bishop, Rook)
+* Movement of knight and pawn
+* Restart the game. Travel transfer
+* List of eaten figures. Timer
 
 ---
 ### Modification to do (no need, optional for me):
@@ -53,19 +53,20 @@
 13. История ходов ( записывать куда-то )
 14. Реализовать на < ход вперед >, на < ход назад > ( Undo ), ( Redo ) 
  -->
-9. After the time has expired, add a condition check if ( timer < 0 ) { } to the timer, which player has reset,
+* After the time has expired, add a condition check if ( timer < 0 ) { } to the timer, which player has reset,
 it means the player lost, display “White lost!” and restart the game
-10. Logic of the king's movement
-11. Add a condition for checkmate. canMove method - check if the king is under attack,
+* Logic of the king's movement
+* Add a condition for checkmate. canMove method - check if the king is under attack,
 determine also how, to what positions each of the figures moves.
 We look at (target), if there is an attack on (target) from any of the pieces, then this is check, and the king must be moved or defended.
 Make a method ( isKingUnderAttack ) and add <conditions>
-12. Add conditions for <mate>, <for victory> (each piece has availablePoints, thanks to which it is determined where the piece can go,
+* Add conditions for <mate>, <for victory> (each piece has availablePoints, thanks to which it is determined where the piece can go,
 if the King is under attack (the same method isKingUnderAttack)),
 if the king has no free squares to go anywhere and there is nothing to protect him with (<calculate> points for neighboring pieces),
 then the game is over, checkmate
-13. History of moves (write down somewhere)
-14. Implement on <move forward>, on <move backward> (Undo), (Redo)
+* History of moves (write down somewhere)
+* Implement on <move forward>, on <move backward> (Undo), (Redo)
+* 
 ---
 
 ### Instructions for start : 
