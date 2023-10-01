@@ -13,7 +13,6 @@
 * React
 * TypeScript
 * Redux
-
 ---
 
 ### Development stages: 
@@ -35,8 +34,8 @@
 * Movement of knight and pawn
 * Restart the game. Travel transfer
 * List of eaten figures. Timer
-
 ---
+
 ### Modification to do (no need, optional for me):
 <!-- ### Что осталось реализовать [в дальнейшем] : 
 9. По истечении времени добавить проверку по условию if ( timer < 0 ) { } в таймер, у какого игрока обнулился, 
@@ -66,12 +65,10 @@ if the king has no free squares to go anywhere and there is nothing to protect h
 then the game is over, checkmate
 * History of moves (write down somewhere)
 * Implement on <move forward>, on <move backward> (Undo), (Redo)
-
 ---
 
 ### Instructions for start : 
 
 1. `npm install`
 2. `npm start`
-   
----
+
