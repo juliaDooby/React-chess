@@ -5,7 +5,7 @@
 
 ## React-chess-app
 
-<!--  [Посмотрите сами](https://juliadooby.github.io/React-chess/) -->
+<!--    [demo]([https://juliadooby.github.io/Cost-calculator/](https://juliadooby.github.io/React-chess/) -->
 ---
 
 ### Stack: 
