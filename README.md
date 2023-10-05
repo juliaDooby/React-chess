@@ -10,7 +10,7 @@
 
 [demo](https://juliadooby.github.io/React-chess/) 
 ---
-### ! Please note: project code on master branch ((temporarily) - I'll resolve the issue soon, Thanks for understanding !
+### Please note: project code on master branch ((temporarily) - I'll resolve the issue soon, Thanks for understanding !
 ---
 
 ### Stack: 
