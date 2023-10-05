@@ -5,7 +5,9 @@
 ## React-chess-app
 
 ![chessScreenshot](https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG)
+
 <div align="center"><img src="https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG" width="100%" height="40%"></img></div>
+
 [demo](https://juliadooby.github.io/React-chess/) 
 ---
 
