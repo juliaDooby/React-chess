@@ -4,7 +4,7 @@
 
 ## React-chess-app
 
-![Image alt](https://github.com/{juliaDooby}/{React-chess}/raw/{master}/{https://github.com/juliaDooby/React-chess.git}/chessShot.JPG)
+![chessScreenshot](https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG)
 
 [demo](https://juliadooby.github.io/React-chess/) 
 ---
