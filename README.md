@@ -6,7 +6,7 @@
 
  <!-- ![chessScreenshot](https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG)  -->
 
-<div align="center"><img src="https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG" width="100%" height="20%"></img></div>
+<div align="center"><img src="https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG" width="100%" height="100%"></img></div>
 
 [demo](https://juliadooby.github.io/React-chess/) 
 ---
