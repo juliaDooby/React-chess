@@ -4,7 +4,7 @@
 
 ## React-chess-app
 
-![chessScreenshot](https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG)
+ <!-- ![chessScreenshot](https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG)  -->
 
 <div align="center"><img src="https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG" width="100%" height="30%"></img></div>
 
