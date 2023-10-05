@@ -10,7 +10,8 @@
 
 [demo](https://juliadooby.github.io/React-chess/) 
 
-[!code on master branch]
+(!code on master branch ((temporarily) - I'll resolve the issue soon, Thanks for understanding)
+
 ---
 
 ### Stack: 
