@@ -11,7 +11,7 @@
 [demo](https://juliadooby.github.io/React-chess/) 
 ---
 
-### Stack: 
+### Technologies Used:
 
 * React
 * TypeScript
