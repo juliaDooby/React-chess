@@ -4,7 +4,9 @@
 
 ## React-chess-app
 
- [demo](https://juliadooby.github.io/React-chess/) 
+![Image alt](https://github.com/{juliaDooby}/{React-chess}/raw/{master}/{https://github.com/juliaDooby/React-chess.git}/chessShot.JPG)
+
+[demo](https://juliadooby.github.io/React-chess/) 
 ---
 
 ### Stack: 
