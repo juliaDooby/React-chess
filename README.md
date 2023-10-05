@@ -1,11 +1,14 @@
-
 <!-- ![chessCover](https://github.com/JuliaMiroshnichenko/React-chess/blob/master/cover.jpg) 
 
 [author: @ayunannas] -->
 
 ## React-chess-app
 
- [demo](https://juliadooby.github.io/React-chess/) 
+ <!-- ![chessScreenshot](https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG)  -->
+
+<div align="center"><img src="https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG" width="100%" height="20%"></img></div>
+
+[demo](https://juliadooby.github.io/React-chess/) 
 ---
 
 ### Stack: 
@@ -36,7 +39,7 @@
 * List of eaten figures. Timer
 ---
 
-<!-- ### Modification to do (no need, optional for me): -->
+<!-- ### Modification to do (no need, optional for me):  -->
 <!-- ### Что осталось реализовать [в дальнейшем] : 
 9. По истечении времени добавить проверку по условию if ( timer < 0 ) { } в таймер, у какого игрока обнулился, 
 значит игрок проиграл, вывести на экран "Белые проиграли!" и перезапустить игру  
@@ -64,11 +67,10 @@ if the King is under attack (the same method isKingUnderAttack)),
 if the king has no free squares to go anywhere and there is nothing to protect him with (<calculate> points for neighboring pieces),
 then the game is over, checkmate
 * History of moves (write down somewhere)
-* Implement on <move forward>, on <move backward> (Undo), (Redo) -- -->
+* Implement on <move forward>, on <move backward> (Undo), (Redo)  -->
 ---
 
 ### Instructions for start : 
 
 1. `npm install`
 2. `npm start`
-
