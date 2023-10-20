@@ -71,7 +71,6 @@ if the king has no free squares to go anywhere and there is nothing to protect h
 then the game is over, checkmate
 * History of moves (write down somewhere)
 * Implement on <move forward>, on <move backward> (Undo), (Redo)  -->
----
 
 ### Instructions for start : 
 
