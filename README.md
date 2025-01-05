@@ -8,11 +8,10 @@
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
+<a href="https://juliadooby.github.io/React-chess/"><strong>➥Demo</strong></a>
  <!-- ![chessScreenshot](https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG)  -->
 
 <div align="center"><img src="https://github.com/juliaDooby/React-chess/blob/master/chessShot.JPG" width="100%" height="20%"></img></div>
-
-[demo](https://juliadooby.github.io/React-chess/) 
 ---
 
 ### Technologies Used:
